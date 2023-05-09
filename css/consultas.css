@@ -1,0 +1,25 @@
+table{
+	width: 1000px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+th{
+	border-bottom: 3px solid lightblue;
+	text-transform: uppercase;
+	text-align: center;
+}
+td{
+	border-bottom: 1px solid #ccc;
+	padding: 10px 20px 0;
+}
+tbody tr:nth-child(even){
+	background: #eee;
+}
+
+.relleno{
+	padding: 100px 200px 0;
+}
+.pie{
+	margin-top: auto;
+}
